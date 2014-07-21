@@ -1,0 +1,11 @@
+{
+  "name": "store",
+	"version": "0.1.0",
+	"repository": "paximum/paxui-store",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "component/emitter": "*"
+  }
+}
