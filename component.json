@@ -1,7 +1,7 @@
 {
   "name": "store",
-	"version": "0.1.0",
-	"repository": "paximum/paxui-store",
+	"version": "0.1.1",
+	"repository": "ogunduz/store",
   "scripts": [
     "index.js"
   ],
