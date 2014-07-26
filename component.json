@@ -1,11 +1,12 @@
 {
   "name": "store",
-	"version": "0.1.1",
-	"repository": "ogunduz/store",
+	"version": "0.1.2",
+	"repository": "tetsuo/store",
   "scripts": [
     "index.js"
   ],
   "dependencies": {
-    "component/emitter": "*"
+    "component/emitter": "*",
+    "tetsuo/uid": "*"
   }
 }
