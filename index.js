@@ -3,7 +3,8 @@ var uid = require('uid');
 var shelf = window.localStorage;
 
 var entities = {};
-exports = module.exports = {
+
+var store = {
   get: function (key) {
     var entity = entities[key];
     if (!entity) {
@@ -55,4 +56,5 @@ exports = module.exports = {
   }
 };
 
-require('emitter')(module.exports);
+require('emitter')(store);
+module.exports = store;
